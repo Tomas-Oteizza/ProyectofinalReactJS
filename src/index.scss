@@ -1,0 +1,26 @@
+.header{
+    background-color: rgb(68, 71, 74);
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  h1{
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+}
+
+.carrito {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    p{
+      padding-top: 15%;
+    }
+}
