@@ -1,18 +1,33 @@
-.header{
-    background-color: rgb(68, 71, 74);
-    color: azure;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar{
+// Estilos para el navbar
+.navbar {
+  background-color: rgb(44, 44, 45);
+  color: white;
   display: flex;
-  flex-direction: row;
-  h1{
-    padding-left: 5px;
-    padding-right: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: lightgray;
+    }
+  }
+
+  h3 {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
   }
 }
 
@@ -24,3 +39,81 @@
       padding-top: 15%;
     }
 }
+
+.ItemHeader{
+  padding-top: 30%;
+  padding-bottom: 50%;
+}
+
+.ItemImg{
+  max-width: 300px; 
+  max-height: 250px;
+  padding: 15px; 
+}
+
+.Info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  
+}
+
+.ItemFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option{
+  text-decoration: none;
+  color: rgb(87, 10, 170);
+    &:hover{
+      color: rgb(3, 230, 255);
+      border-radius: 5px;
+      background-color: rgb(44, 44, 45);
+      padding: 10px;
+    }
+}
+
+.CardItem {
+  background-color: rgb(130, 142, 195);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.button {
+  color: rgb(87, 10, 170);
+  background: none;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.Button {
+  color: rgb(87, 10, 170);
+  background: none;
+  color: black;
+  margin: 2px;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.Number {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
