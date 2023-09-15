@@ -1,5 +1,4 @@
 import Item from "./Item"
-import { getProducts , getProductById } from "./asyncMock";
 
 const ItemList = ({products}) => {
     return (

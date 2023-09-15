@@ -21,7 +21,9 @@ function Navbar() {
           Motorola
         </NavLink>
       </div>
-      <CartWidgets/>
+      <NavLink to="/CartWidgets" exact>
+        <CartWidgets/>
+      </NavLink>
     </nav>
   );
 }
